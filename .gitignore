@@ -1,0 +1,39 @@
+# 不上传本地预测结果
+prediction.csv
+
+# 不上传本地网络模型参数
+models/**
+!models/
+
+
+# local settings
+local_settings.py
+
+# Platform specified files
+.DS_Store
+
+# Code editors
+.atom/
+.fleet/
+.idea/
+
+*.iml
+*.ipr
+*.iws
+
+*.sln
+*.swp
+
+# Pycharm
+__pycache__/
+*.py[cod]
+*$py.class
+
+# database migrations
+*/migrations/*.py
+!*/migrations/__init__.py
+
+*.sqlite3
+
+# scripts
+scripts/
