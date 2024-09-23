@@ -52,21 +52,27 @@ pip install -r requirements.txt
 1. 主程序
 
 存储在 [main.py文件](main.py)
+
 2. 数据预处理
 
 封装在 [data_pre.py文件](./data_pre.py)
+
 3. 网络结构
 
 存储在 [lstm_model.py文件](./lstm_model.py)
+
 4. 网络训练源码
 
 封装在 [train.py文件](./train.py)
+
 5. 预测和测试源码
 
 封装在 [test_and_prediction.py文件](test_and_prediction.py)
+
 6. 获取股票基本信息
 
 存储在 [stock_basic.py文件](stock_basic.py)
+
 7. 训练后的网络模型参数
 
 存储在 [models目录](./models) 下，且模型名称为股票代码
