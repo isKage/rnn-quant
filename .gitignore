@@ -1,6 +1,7 @@
 # 不上传本地预测结果
 prediction.csv
 test.csv
+no_push.ipynb
 
 # 不上传本地网络模型参数
 models/**
