@@ -33,13 +33,19 @@ pip install -r requirements.txt
 > 或者使用conda或是virtualenv创建虚拟环境后执行
 
 ### 3. 执行主程序
+> 注意：主程序用以测试网络在测试集上的表现，具体预测请运行`prediction.py`脚本
+
 建议初学者使用Pycharm等IDEA打开文件并执行
 
 修改`main.py`文件中的`code_name`变量，填入对应的股票名称后，运行主程序。
 
 运行成功后，在当前目录下会出现`prediction.csv`文件，第一行为股票名称，第二行为预测的结果（即未来最近的一个交易日的收盘价预测值）
 
-### 4. 其他
+### 4. 预测
+
+类似主程序的设置，运行[prediction.py](predition.py)脚本
+
+### 5. 其他
 进阶使用，可以自行修改相关参数和网络结构
 
 ## 3. 仓库框架

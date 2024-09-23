@@ -115,6 +115,7 @@ def data_pre(origin_data: pd.DataFrame, features_names: list) -> pd.DataFrame:
         features[name] = scaler.fit_transform(features[name].values.reshape(-1, 1))
     labels['close'] = scaler.fit_transform(labels['close'].values.reshape(-1, 1))
 
+    # 错位填入label
     final_data = features.copy()
     final_data['label'] = labels['close'].shift(-1)
     final_data.dropna(how='any', inplace=True)
@@ -157,9 +158,9 @@ def train_and_test(code: str, time: int, features_names, time_step=20, train_siz
     data_target = np.array(data_target)
 
     # 这里按照比例划分训练集和测试集
-    test_size = int(np.round((1 - train_size) * final_data.shape[0]))  # np.round(1)是四舍五入
+    test_size = int(np.round((1 - train_size) * final_data.shape[0]))  # np.round()是四舍五入
     train_size = data_feat.shape[0] - (test_size)
-    # print(test_set_size)  # 输出测试集大小
+    # print(test_size)  # 输出测试集大小
     # print(train_size)  # 输出训练集大小
 
     features_num = len(features_names)

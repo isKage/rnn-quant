@@ -103,7 +103,7 @@ def train_lstm_for_stock(
     pred = pred.detach().numpy()[:, -1, 0]
     pred = scaler.inverse_transform(pred.reshape(-1, 1))
 
-    return trainX, testX, trainY, testY, scaler, dir, pred[0][0]
+    return trainX, testX, trainY, testY, scaler, dir, pred[-1][0]
 
 
 if __name__ == '__main__':
