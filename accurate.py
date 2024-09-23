@@ -60,7 +60,8 @@ count_neg1 = (df['accurate'] == -1).sum()
 print(f"1的个数: {count_1}")
 print(f"-1的个数: {count_neg1}")
 
-print("准确率: {}".format(count_1 / (count_1 + count_neg1)))
+if count_1 + count_neg1 > 0:
+    print("准确率: {}".format(count_1 / (count_1 + count_neg1)))
 
 df.to_csv('accurate.csv', index=True)
 
