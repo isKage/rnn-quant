@@ -53,6 +53,8 @@ df['real_rate'] = df['real_price'] / df['latest'] - 1.0
 
 df['accurate'] = df.apply(determine_sign, axis=1)
 
+df = df.sort_values(by='rate', ascending=False)
+
 count_1 = (df['accurate'] == 1).sum()
 count_neg1 = (df['accurate'] == -1).sum()
 
