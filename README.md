@@ -1,3 +1,12 @@
+<p align="center">
+  <a title="License" target="_blank" href="https://github.com/isKage/rnn-quant/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/github/license/isKage/rnn-quant.svg?style=flat"></a>
+  <a title="GitHub Commits" target="_blank" href="https://github.com/isKage/rnn-quant/commits/main"><img alt="GitHub Commits" src="https://img.shields.io/github/commit-activity/m/isKage/rnn-quant.svg?style=flat&color=brightgreen&label=commits"></a>
+  <br><br>
+  <a title="GitHub Watchers" target="_blank" href="https://github.com/isKage/rnn-quant/watchers"><img alt="GitHub Watchers" src="https://img.shields.io/github/watchers/isKage/rnn-quant.svg?label=Watchers&style=social"></a>  
+  <a title="GitHub Stars" target="_blank" href="https://github.com/isKage/rnn-quant/stargazers"><img alt="GitHub Stars" src="https://img.shields.io/github/stars/isKage/rnn-quant.svg?label=Stars&style=social"></a>  
+  <a title="GitHub Forks" target="_blank" href="https://github.com/isKage/rnn-quant/network/members"><img alt="GitHub Forks" src="https://img.shields.io/github/forks/isKage/rnn-quant.svg?label=Forks&style=social"></a>  
+</p>
+
 # 基于 LSTM 网络的股票预测模型
 
 > 原项目逻辑混乱，故覆写了一份
