@@ -91,13 +91,5 @@ pip install -r requirements.txt
 
 ### 6. Star
 
-<p align="center">
-  <a href="https://star-history.com/#isKage/rnn-quant">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=isKage/rnn-quant&type=Date&theme=dark" />
-      <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=isKage/rnn-quant&type=Date" />
-      <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=isKage/rnn-quant&type=Date" />
-    </picture>
-  </a>
-</p>
+[![Stargazers over time](https://starchart.cc/isKage/rnn-quant.svg?variant=adaptive)](https://starchart.cc/isKage/rnn-quant)
 
